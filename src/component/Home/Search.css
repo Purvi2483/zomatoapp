@@ -1,0 +1,49 @@
+#search {
+    height: 500px;
+    background-image: url('https://media.istockphoto.com/photos/table-top-view-of-indian-food-picture-id1212329362?k=20&m=1212329362&s=170667a&w=0&h=3kPnuGyYBEqlBvjwMb8npLWw1nhKDP-Av4lyE_Rz8ec= ');
+        background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+    
+    
+}
+#logo {
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left:46%;
+    margin-right:50%;
+    position:absolute;
+    margin-top: 5%;
+}
+.fas {
+    font-size: 103px;
+    margin-left:15%;
+    margin-right:50%;
+    position:absolute;
+    margin-top: 10%;
+    color:#9f3f15;
+}
+#heading {
+    margin-left: 31%;
+    margin-top: 15%;
+    position: absolute;
+    font-size: 40px;
+    color: red;
+}
+#dropdown {
+    margin-left: 26%;
+    margin-top: 19%;
+    position: absolute;
+    width: 60%;  
+}
+#city {
+    height: 45px;
+    width:35%;
+    border-radius:2%;
+}
+#hotel {
+    width:45%;
+    height:45px;
+}

@@ -1,0 +1,52 @@
+#listing-container {
+    width: 100%;
+    height: 1300px;
+}
+#Filter {
+    width: 15%;
+    height: 786px;
+    border: 2px groove grey;
+    float: left;
+    margin-top: 4%;
+}
+
+#Content {
+    width: 74%;
+    height: 750px;
+    float: left;
+    margin-left: 0%;
+    margin-top: 4%;
+}
+
+.restraunt {
+    width: 30%;
+    height: 390px;
+    margin-left: 3%;
+    line-height: 2;
+    float: left;
+    margin-top: 2%;
+ }
+.restraunt > a {
+    color: black !important;
+    text-decoration: none !important;
+}
+.image-Container {
+    width: 100%;
+    height: 215px;
+    border-radius: 25%;
+}
+
+.image-Container > img {
+    width: 100%;
+    height: 214px;
+    float: left; 
+}
+.restinfo-container {
+    width: 100%;
+    height: 200px;
+    float: left;
+    
+}
+.glyphicon{
+    color:yellow;
+}

@@ -1,0 +1,11 @@
+.orderItems {
+    height: 333px;
+    width: 202px;
+    float: left;
+    margin-left: 5%;
+}
+
+.orderItems > img {
+    height: 224px;
+    width: 100%;
+}
