@@ -25,7 +25,7 @@ class CostFilter extends Component {
     render(){
         return(
             <>
-            <center>cost filter</center>
+            <center><b>Cost filter</b></center>
             <div style={{marginLeft:'15%'}} onChange={this.filterCost}>
                 <label className="radio">
                     <input type="radio" value="" name="cost"/>All

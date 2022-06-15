@@ -34,6 +34,7 @@ class Register extends Component {
         return(
             <>
             <Header/>
+            <div className="container">
             <div className="panel panel-primary">
                 <div className="panel-heading">
                        Register Form
@@ -66,9 +67,10 @@ class Register extends Component {
                                 </div>
                             </div>
                         </div>                        
-                    <button className="btn btn-success" onClick={this.handleSubmit}>Register</button>
+                    <button className="btn btn-primary" onClick={this.handleSubmit}>Register</button>
 
                 </div>
+            </div>
             </div>
             </>
         )

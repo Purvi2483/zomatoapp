@@ -24,7 +24,7 @@ class CuisineFilter extends Component {
     render(){
         return(
             <>
-            <center>cuisine filter</center>
+            <center><b>Cuisine filter</b></center>
             <div style={{marginLeft:'15%'}} onChange={this.filterCuisine}>
                 <label className="radio">
                     <input type="radio" value="" name="cuisine"/>All

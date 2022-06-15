@@ -1,3 +1,14 @@
+.panel {
+   margin-top: 2%;
+}
+.col-md-12 {
+    margin-left: 20px;
+}
+.btn {
+    margin-left: 20px;
+
+}
+
 .orderItems {
     height: 333px;
     width: 202px;

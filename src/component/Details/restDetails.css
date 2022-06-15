@@ -2,7 +2,10 @@
     width:82%;
     height: 760px;
     margin-left: 9%;
-    margin-top:4%;
+   
+}
+.bbutton {
+    margin-top:20px ;
 }
 .IMG {
     border: 2px groove grey;
@@ -23,6 +26,9 @@
     float:left;
    
 }
+.contact {
+    margin-top: 45px;
+}
 .measures {
     float:left;
     border: 2px wheat;
@@ -33,6 +39,12 @@
     width:40px;
    
 }
+
+
+.pbutton {
+    float:right;
+}
+
 
 .col-md-3 >img {
     height: 79px;

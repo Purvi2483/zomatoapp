@@ -9,10 +9,10 @@ const ListingDisplay = (props) => {
                 return listData.map((item) => {
                     return(
                         <div className="restraunt" key={item.restaurant_id}>
-                   
+                      <Link to={`/Details?restId=${item.restaurant_id}`}>
                     <div className="image-Container"><img src={item.restaurant_thumb} ></img>
                     </div>
-                    <Link to={`/Details?restId=${item.restaurant_id}`}>
+                   
                        
                     <div
                     className="restinfo-container">

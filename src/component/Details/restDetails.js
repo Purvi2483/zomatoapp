@@ -37,11 +37,13 @@ class Details extends Component {
         return(
         <>
         <Header/>
+        <div className="bbutton">
+        <Link to={`/listing/${this.state.mealId}`} className="btn btn-danger">Back</Link></div>
            <div className="main-container">
                <div className="IMG"><img src={details.restaurant_thumb}/></div>
                <div className="content-container"><h1>{details.restaurant_name}</h1>               
                <p>{details.address}</p>
-               
+              
                <Tabs>
   <TabList>
        <Tab>Details</Tab>
@@ -66,16 +68,20 @@ class Details extends Component {
       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1uUm2LwyxBLTeVEs9JLCRJtclgMg6_OlRMJicbcnjnFAmy6i0HGu1_982T04-XpGHwto&usqp=CAU" />
       Fast Delivery
       </div>
-      
      
+      <div className="contact">
+      <h2>Contact Details</h2>
+        <p>Contact No. : {details.contact_number}</p>
+      </div>
   </TabPanel>
   <TabPanel>
+  <span className="pbutton">
+                  <button className="btn btn-info" onClick={this.proceed}>Proceed</button>
+                  </span>
+               
       <div>
   <MenuDisplay menuData={this.state.menuList} 
-           finalOrder={(data) => {this.addToCart(data)}}/>
-            <Link to={`/listing/${this.state.mealId}`} className="btn btn-danger">back</Link>
-               <button className="btn btn-success" onClick={this.proceed}>Proceed</button>
-               
+           finalOrder={(data) => {this.addToCart(data)}}/>               
        </div>
       
   </TabPanel>

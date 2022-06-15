@@ -38,15 +38,17 @@ class MenuDisplay extends Component {
                            <span  className="glyphicon glyphicon-star"></span>
                            <span  className="glyphicon glyphicon-star"></span>
                            <span  className="glyphicon glyphicon-star"></span></p>
-                           <p>Rs.{item.menu_price}</p>
+                           <span>Rs.{item.menu_price}</span>&nbsp;&nbsp;
+                           <span>{item.menu_type}</span>
                            </div>
                         </div>
                         <div className="col-md-4">
                             <button className="btn btn-success" onClick={() => {this.addItem(item.menu_id)}}>
-                                <span className="glyphicon glyphicon-plus" ></span>
+                                ADD
                             </button>
+                            &nbsp;&nbsp;
                             <button className="btn btn-danger" onClick={() => {this.removeItem(item.menu_id)}}>
-                                <span className="glyphicon glyphicon-minus"></span>
+                               Remove
                             </button>
                         </div>
                     </div>
@@ -60,7 +62,8 @@ class MenuDisplay extends Component {
             <>
               <div className="col-md-12">
                   <h1>Item Added</h1>
-                  Item Number {this.renderCart(this.orderId)} Added
+                  Item Number {this.renderCart(this.orderId)} Added &nbsp;&nbsp;
+                 
               </div>
               <hr/>
               <div className="col-md-12 ">

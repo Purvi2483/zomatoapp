@@ -41,6 +41,7 @@ class Login extends Component {
         return(
             <>
             <Header/>
+            <div className="container">
             <div className="panel panel-info">
                 <div className="panel-heading">
                        Login Form
@@ -66,7 +67,7 @@ class Login extends Component {
                             </div>
                         </div>                        
                     <button className="btn btn-info" onClick={this.handleSubmit}>Login</button>
-
+                </div>
                 </div>
             </div>
             </>

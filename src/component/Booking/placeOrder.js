@@ -38,7 +38,7 @@ class PlaceOrder extends Component {
             body:JSON.stringify(obj)
         })
         //.then(this.props.history.push('/viewOrder'))
-        .then(console.log('order taken'))
+       .then(console.log('order taken'))
     }
 
     renderMenu=(data) => {
@@ -73,7 +73,7 @@ class PlaceOrder extends Component {
             <>
             <Header/>
             <div className="container">
-                <div className="panel panel-primary">
+                <div className="panel panel-info">
                     <div className="panel-heading">
                         <h3>Your Order from Restaurant {this.props.match.params.restName}</h3>                          
                     </div> 
